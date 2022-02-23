@@ -13,7 +13,7 @@
 
 ## 📝 Process
 
-step by step on how to create a child process that will become a zombie in the future.
+step by step about how to create a child process that will become a zombie in the future.
 
 ---
 
