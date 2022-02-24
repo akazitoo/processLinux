@@ -1,9 +1,70 @@
-<h1 align="center">Software Infrastructure</h1>
+<h1 align="center">Process in Linux</h1>
 
 <p align="center">
-  <img src="image/imagegit.png" width="350" title="hover text">
+        <span>Process</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <span>First Step</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <span>Compile</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <span>Run</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <span>Clean</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <span>Explanation</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-## About The Program
+---
 
-Repository created to show program activities called software infrastructure teaching by prof. Érico Souza Teixeira, with the aim of learning more about the concepts, abstractions, fundamentals, mechanisms and implementations of modern Operating Systems (OS). 👨‍💻
+## 📝 Process
+
+step by step about how to create a child process that will become a zombie in the future.
+
+---
+
+## ☝️ First Step
+
+```bash
+$ git clone https://github.com/akazitoo/softwareInfra.git
+$ cd softwareInfra
+$ cd processLinux
+```
+
+Cloning the project to local
+
+---
+
+## ✔️ Compile
+
+```bash
+$ make
+```
+Create a file 'main'
+
+<br>
+
+OBS: if you don't have 'make' installed
+
+```bash
+$ sudo apt install make
+```
+
+---
+
+## ⚙️ Run
+
+```bash
+$ make run
+```
+Run the main file 
+
+---
+
+## 🧹 Clean
+
+```bash
+$ make clean
+```
+
+Delete the compiled file
+
+---
+
+## 📌 Explanation
+
+Running the main file that creates a child process, which when they finish they become zombies. With the command 'ps -l' used in the makefile, we can see the states of the processes.
