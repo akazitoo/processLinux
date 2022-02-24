@@ -6,4 +6,4 @@
 
 ## About The Program
 
-Repository created to show program activities called software infrastructure teaching by prof. Érico Souza Teixeira, with the aim of developing my knowledge about the concepts, abstractions, fundamentals, mechanisms and implementations of modern Operating Systems (OS). 👨‍💻
+Repository created to show program activities called software infrastructure teaching by prof. Érico Souza Teixeira, with the aim of learning more about the concepts, abstractions, fundamentals, mechanisms and implementations of modern Operating Systems (OS). 👨‍💻
