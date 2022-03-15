@@ -20,9 +20,9 @@ step by step about how to create a child process that will become a zombie in th
 ## ☝️ First Step
 
 ```bash
-$ git clone https://github.com/akazitoo/softwareInfra.git
-$ cd softwareInfra
+$ git clone https://github.com/akazitoo/processLinux.git
 $ cd processLinux
+$ cd src
 ```
 
 Cloning the project to local
